@@ -62,12 +62,15 @@ and (max-device-width : 568px) { /* iphone 5,5s */
   .intro-section {
     padding-bottom:30px !important;
   }
+  .ondernemers-section{
+    padding: 10px 0px !important;
+  }
   .h1-hero{
     font-size:35px;
     line-height:40px;
     margin: 20px 0px;
   }
-  h2.wordfan{
+  h2.wordfan, .ondernemers-section h2{
     font-size:22px;
   }
   .intro-txt{
@@ -103,9 +106,6 @@ and (max-device-width : 568px) { /* iphone 5,5s */
     margin: 0px !important;
     padding: 0px !important;
   }
-  .steps{
-    -webkit-overflow-scrolling: touch;
-  }
 }
 
 @media only screen
@@ -115,12 +115,15 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
   .intro-section {
     padding-bottom:30px !important;
   }
+  .ondernemers-section{
+    padding: 10px 0px !important;
+  }
   .h1-hero{
-    font-size:35px;
+    font-size:37px;
     line-height:40px;
     margin: 20px 0px;
   }
-  h2.wordfan{
+  h2.wordfan, .ondernemers-section h2{
     font-size:22px;
   }
   .intro-txt{
@@ -155,9 +158,6 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
     line-height:25px;
     margin: 0px !important;
     padding: 0px !important;
-  }
-  .steps{
-    -webkit-overflow-scrolling: touch;
   }
 }
 
@@ -625,6 +625,8 @@ blockquote span{
   margin-right:50px;
 }
 /*carousel*/
+
+
 /*facebook*/
 #social {
   display: table-cell;
