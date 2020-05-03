@@ -59,6 +59,9 @@ ul {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* iphone 5,5s */
+  .intro-section {
+    padding-bottom:30px !important;
+  }
   .h1-hero{
     font-size:35px;
     line-height:40px;
@@ -75,7 +78,33 @@ and (max-device-width : 568px) { /* iphone 5,5s */
     padding: 30px 0px !important;
   }
   .col-md-8 li{
+  font-size:15px;
   line-height:25px;
+  }
+  .extraspace{
+    margin-top:100px;
+  }
+  .faq-question{
+        margin-left:-20px;
+  }
+  .plus{
+    font-size: 35px !important;
+    line-height: 25px;
+  }
+  .panel-title {
+    font-size: 15px !important;
+    font-weight:600;
+    line-height:25px;
+    padding: 0px 0px 0px 0px;
+  }
+  .panel-content p{
+    font-size: 15px !important;
+    line-height:25px;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .steps{
+    -webkit-overflow-scrolling: touch;
   }
 }
 
@@ -83,6 +112,9 @@ and (max-device-width : 568px) { /* iphone 5,5s */
 and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) { /* iphone 6,7,8, portrait */
+  .intro-section {
+    padding-bottom:30px !important;
+  }
   .h1-hero{
     font-size:35px;
     line-height:40px;
@@ -99,7 +131,33 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
     padding: 30px 0px !important;
   }
   .col-md-8 li{
+    font-size:15px;
     line-height:25px;
+  }
+  .extraspace{
+    margin-top:100px;
+  }
+  .faq-question{
+    margin-left:-20px;
+  }
+  .plus{
+    font-size: 35px !important;
+    line-height: 25px;
+  }
+  .panel-title {
+    font-size: 15px !important;
+    font-weight:600;
+    line-height:25px;
+    padding: 0px 0px 0px 0px;
+  }
+  .panel-content p{
+    font-size: 15px !important;
+    line-height:25px;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .steps{
+    -webkit-overflow-scrolling: touch;
   }
 }
 
