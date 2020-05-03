@@ -117,6 +117,11 @@ and (max-device-width : 568px) { /* iphone 5,5s */
     margin: 0px !important;
     padding: 0px !important;
   }
+  ul.voordelen li{
+    padding-top:5px;
+    padding-bottom:5px;
+    border-bottom:1px dotted #ccc;
+  }
 }
 
 @media only screen
@@ -169,6 +174,11 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
     line-height:25px;
     margin: 0px !important;
     padding: 0px !important;
+  }
+  ul.voordelen li{
+    padding-top:5px;
+    padding-bottom:5px;
+    border-bottom:1px dotted #ccc;
   }
 }
 
