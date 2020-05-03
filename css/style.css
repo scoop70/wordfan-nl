@@ -177,6 +177,12 @@ a.page-scroll{
   max-width: 1280px;
   margin: 0px auto;
 }
+img.downloadhero{
+  width:155px;
+  height:42px;
+  padding-right:10px;
+  margin-bottom:20px;
+}
 img.download{
   width:200px;
   height:60px;
