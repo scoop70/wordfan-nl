@@ -14,7 +14,7 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
     },
     {
       img: './assets/ondernemers/lelyfoto.jpg',
-      headerText: 'Toko Sindjaja',
+      headerText: 'LelyFoto',
       blurbText: 'Een snelle foto bij uw (voor)deur in deze corona tijden? Voor slechts €12,50 komt Lelufoto langs!',
       linkUrl: 'https://www.lelyfoto.nl/',
       linkLocation: '#'
@@ -38,7 +38,7 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
       headerText: 'Joia-ilona',
       blurbText: 'JOIA brengt culturen, materialen en kleuren uit verschillende werelden samen. Een traditionele stijl met een moderne twist.',
       linkUrl: 'https://www.joiailona.nl/',
-      linkLocation: '#'
+      linkLocation: 'https://www.google.com/maps/dir/52.5117462,5.4984959/Cederhof+15,+8172+DV+Vaassen/@52.4168315,5.4847281,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x47c7c66b8513d8d1:0x41eb584b87b5086c!2m2!1d5.9530145!2d52.280177'
     },
     {
       img: './assets/ondernemers/thereadshop.jpg',
@@ -70,7 +70,7 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
     },
     {
       img: './assets/ondernemers/sindjaja.jpg',
-      headerText: 'Sindjaja',
+      headerText: 'Toko Sindjaja',
       blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, sequi. Tempore delectus quas illum ex!',
       linkUrl: 'http://www.toko-sindjaja.nl/',
       linkLocation: '#'
