@@ -36,6 +36,17 @@ ul {
   list-style-type: none;
   padding:0px;
  }
+ ul.voordelen {
+   list-style-type: none;
+   padding:30px;
+  }
+  ul.voordelen li:before {
+  content: "\f046"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
 .credo{
   line-height:10px;
   padding-left:8px;
