@@ -279,10 +279,22 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
   background-color:#f5bd00;
   border-color: #f5bd00 !important;
 }
+.img-alert-holder{
+  position:absolute;
+  top:-90px;
+  left:20px;
+  bottom:0;
+}
+.img-alert{
+  width:180px;
+  height:180px;
+  display:block;
+  clear:both;
+}
 .alert-success p{
   color:#333333;
-  line-height:33px;
-  font-size:18px;
+  line-height:25px;
+  font-size:16px;
 }
 .alert-success .fa{
   font-size:25px;
