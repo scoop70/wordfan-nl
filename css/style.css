@@ -377,7 +377,7 @@ img.download{
 .content-box {
   border: 0px solid #e6e6e6;
   background-color: white;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   box-shadow: 0px -1px 2px rgba(58, 58, 58, 0.2), 1px 1px 2px rgba(58, 58, 58, 0.2);
 }
 .content-box:before {
@@ -398,6 +398,7 @@ img.download{
 }
 .content-box-header {
   font-size: 2rem;
+  font-weight: 600;
   margin: 0.75rem 0rem 0.75rem 0rem;
 }
 .content-box-blurb {
@@ -415,14 +416,24 @@ img.download{
 }
 
 .readmore-link {
-  font-size:14px;;
+  font-size:14px;
+  font-weight:600;
+  margin-right:5px;
 }
 .readmore-link .fa{
   font-size:20px;
-  margin-right:10px;
+  border: 1px solid #f5bd00;
+  width: 32px;
+  height: 32px;
+  padding:5px;
+  margin-top: 0px;
+  text-align:center;
+  border-radius: 3px;
+  background-color:#f5bd00;
 }
-.readmore-link .fa:hover{
-  color:#f5bd00;
+.readmore-link:hover {
+  color:#ffffff;
+  text-decoration:none;
 }
 /*footer*/
 .site-footer
