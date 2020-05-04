@@ -795,6 +795,7 @@ blockquote span{
 
 .instagram .border:hover {
   background: #bc2a8d;
+  background-image: linear-gradient(115deg,#405DE6,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#FCAF45,#FFDC80);
   border-color: #bc2a8d;
   color: rgba(255,255,255, 0.9);
   transform: scale(1.2);
