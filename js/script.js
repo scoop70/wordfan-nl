@@ -7,31 +7,31 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
   $scope.gridItems = [
     {
       img: './assets/ondernemers/ilias.jpg',
-      headerText: 'Ilias Delicatesse',
-      blurbText: 'Maak kennis met het ruime assortiment aan oa. olijven, tapas, noten, chocolade, zuidvruchten van Ilias Delicatessen.',
+      headerText: 'Ilias Delicatessen',
+      blurbText: 'Bezorging door heel Nederland!',
       linkUrl: 'https://www.iliasdeli.nl/',
-      linkLocation: '#'
+      linkLocation: 'https://www.google.com/maps/place/Ilias+Delicatessen/@52.1755765,4.4944083,17z/data=!3m1!4b1!4m5!3m4!1s0x47c5c6b93b50edd9:0xe6710346d4879abd!8m2!3d52.1755765!4d4.496597'
     },
     {
       img: './assets/ondernemers/lelyfoto.jpg',
       headerText: 'LelyFoto',
-      blurbText: 'Een snelle foto bij uw (voor)deur in deze corona tijden? Voor slechts €12,50 komt Lelufoto langs!',
+      blurbText: 'Voor slechts €12,50 komt Lelyfoto langs!',
       linkUrl: 'https://www.lelyfoto.nl/',
-      linkLocation: '#'
+      linkLocation: 'https://www.google.com/maps/place/Lelyfoto/@52.5031725,5.4446368,17z/data=!3m1!4b1!4m5!3m4!1s0x47c626bb36732557:0x36d38fd6deefcb3e!8m2!3d52.5031725!4d5.4468255'
     },
     {
       img: './assets/ondernemers/janwillem.jpg',
       headerText: 'Jan Willem Nije',
       blurbText: 'Fysieke therapie met massage, shiatsu of Jin Shin Jyutsu',
       linkUrl: 'http://janwillemnije.nl/',
-      linkLocation: '#'
+      linkLocation: 'http://janwillemnije.nl/contact/'
     },
     {
       img: './assets/ondernemers/scubanova.jpeg',
       headerText: 'Scuba nova duikschool',
       blurbText: 'De PADI duikschool en winkel met duikspullen ',
       linkUrl: 'https://www.scubanova.nl/',
-      linkLocation: '#'
+      linkLocation: 'https://www.google.com/maps/place/Scuba+Nova/@52.4853678,5.4865149,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6263ede3c1621:0xbf2c83c6996fa998!8m2!3d52.4853678!4d5.4887036'
     },
     {
       img: './assets/ondernemers/Joia-ilona.jpeg',
@@ -43,51 +43,51 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
     {
       img: './assets/ondernemers/thereadshop.jpg',
       headerText: 'The Readshop',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, blanditiis autem, ex quidem hic unde dolorum ',
-      linkUrl: 'https://www.nu.nl',
-      linkLocation: '#'
+      blurbText: 'Boekhandel met een ruim assortiment.',
+      linkUrl: 'https://www.readshop.nl/Winkel/1F-16-A0-70-4F-2A-7D-3B/The-Read-Shop-Lelystad-Kroonpassage',
+      linkLocation: 'https://www.google.com/maps/place/The+Read+Shop/@52.4989506,5.4572208,14.3z/data=!4m8!1m2!2m1!1sThe+Readshop+lelystad!3m4!1s0x47c6268c183b987b:0x9bc35d76011f4931!8m2!3d52.5074771!4d5.4748885'
     },
     {
       img: './assets/ondernemers/chiba.jpeg',
       headerText: 'Chiba kleding',
       blurbText: 'Modemerk Chiba Clothing, gevestigd in Lelystad',
-      linkUrl: 'https://www.nu.nl',
-      linkLocation: '#'
+      linkUrl: 'https://www.chibaclothing.com/',
+      linkLocation: 'https://www.google.com/maps/place/Chiba+Clothing/@52.5064867,5.4742689,17z/data=!3m1!4b1!4m5!3m4!1s0x47c627af9d8caea9:0x34f8d63716ee18e9!8m2!3d52.5064867!4d5.4764576'
     },
     {
       img: './assets/ondernemers/konditorei-noor.jpg',
       headerText: 'Konditorei Noor',
       blurbText: 'Konditorie Noor is een gezellige nieuwe eetgelegenheid, een tafel vol heerlijke zoete en hartige hapjes',
       linkUrl: 'https://www.konditoreinoor.nl/',
-      linkLocation: '#'
+      linkLocation: 'https://www.google.com/maps/place/Konditorei+Noor/@52.5071383,5.4749333,17.92z/data=!4m5!3m4!1s0x47c62755b19c5cd1:0x74c66122b6594c4d!8m2!3d52.5072476!4d5.4756373'
     },
     {
       img: './assets/ondernemers/ptfood.jpeg',
       headerText: 'PTFood',
       blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit unde!',
       linkUrl: 'https://www.nu.nl',
-      linkLocation: '#'
+      linkLocation: ''
     },
     {
       img: './assets/ondernemers/sindjaja.jpg',
       headerText: 'Toko Sindjaja',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, sequi. Tempore delectus quas illum ex!',
+      blurbText: 'Overheerlijke gerechten en snacks van Toko Sindjaja',
       linkUrl: 'http://www.toko-sindjaja.nl/',
-      linkLocation: '#'
+      linkLocation: 'https://www.google.com/maps/place/Toko+Sindjaja/@52.5112565,5.4726759,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6268ceb4e88dd:0x29f9755c2c807892!8m2!3d52.5112565!4d5.4748646'
     },
     {
       img: './assets/ondernemers/tropica.jpg',
       headerText: 'Dierenspeciaalzaak Tropica',
       blurbText: 'DSZ Tropica Lelystad de huisdierdeskundige. Al 30 jaar een begrip in Lelystad.',
       linkUrl: 'http://tropicalelystad.nl/',
-      linkLocation: '#'
+      linkLocation: 'https://www.google.com/maps/place/Dierenspeciaalzaak+Tropica/@52.5064502,5.4753548,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6268955fd6247:0x3a04bc88743b2b4a!8m2!3d52.506447!4d5.4775488'
     },
     {
       img: './assets/ondernemers/ukkies.jpg',
       headerText: 'Ukkies Place',
       blurbText: 'Baby & Kinderkleding en Accessoires shoppen doe je bij Ukkiesplace.',
       linkUrl: 'https://www.ukkiesplace.nl/',
-      linkLocation: '#'
+      linkLocation: 'https://www.google.com/maps/place/Ukkiesplace/@52.5088448,5.4730021,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6267cc40a76d3:0x720ffa7fdc8935dc!8m2!3d52.5088448!4d5.4751908'
     }
   ];
   $scope.search = '';
