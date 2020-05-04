@@ -240,7 +240,7 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
   text-shadow:0 0 5px #000;
 }
 .intro-section {
-  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../assets/wordfan-header.jpeg");
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../assets/wordfan-header.jpeg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
