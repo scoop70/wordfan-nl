@@ -56,10 +56,10 @@ ul {
   font-size:15px;
 }
 .extraspace{
-  margin-top:120px;
+  margin-top:80px;
 }
 .h1-hero{
-  font-size:35px;
+  font-size:37px;
   line-height:50px;
   font-family: 'Open Sans', sans-serif;
   font-weight:800;
@@ -68,6 +68,17 @@ ul {
   text-shadow:0 0 5px #000;
   margin:30px 0px;
 }
+h1.teaser{
+  font-size:28px;
+}
+.divider{
+  width:25%;
+  text-align:left;
+  margin:30px 0;
+  border:2.5px solid #fff;
+  opacity:0.4;
+}
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* iphone 5,5s */
@@ -81,13 +92,17 @@ and (max-device-width : 568px) { /* iphone 5,5s */
     padding: 10px 0px !important;
   }
   .h1-hero{
-    font-size:20px;
-    line-height:30px;
+    font-size:29px;
+    line-height:33px;
     margin: 20px 0px;
-    font-weight: 600;
-    text-align: center;
-    letter-spacing: 2px;
+    font-weight: 800;
+    letter-spacing: 1px;
     padding:0px;
+    text-align: center;
+  }
+  h1.teaser{
+    font-size:18px;
+    line-height:28px;
   }
   h2.wordfan, .ondernemers-section h2{
     font-size:22px;
@@ -133,6 +148,13 @@ and (max-device-width : 568px) { /* iphone 5,5s */
   .overflow{
     display:none;
   }
+  .divider{
+    width:100%;
+    text-align:center;
+    margin:30px 0;
+    border:2.5px solid #fff;
+    opacity:0.4;
+  }
 }
 
 @media only screen
@@ -152,6 +174,11 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
     font-size:37px;
     line-height:40px;
     margin: 20px 0px;
+    text-align: center;
+  }
+  h1.teaser{
+    font-size:23px;
+    line-height:33px;
   }
   h2.wordfan, .ondernemers-section h2{
     font-size:22px;
@@ -196,6 +223,12 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
   }
   .overflow{
     display:none;
+  }
+  .divider{
+    width:100%;
+    text-align:center;
+    margin:30px 0;
+    border:2.5px solid #fff;
   }
 }
 
