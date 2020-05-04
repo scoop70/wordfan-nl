@@ -59,13 +59,14 @@ ul {
   margin-top:120px;
 }
 .h1-hero{
-  font-size:48px;
+  font-size:35px;
+  line-height:50px;
   font-family: 'Open Sans', sans-serif;
   font-weight:800;
   color:#ffffff;
   -webkit-text-stroke-color: white;
   text-shadow:0 0 5px #000;
-  margin:40px 0px;
+  margin:30px 0px;
 }
 @media only screen
 and (min-device-width : 320px)
@@ -73,13 +74,20 @@ and (max-device-width : 568px) { /* iphone 5,5s */
   .intro-section {
     padding-bottom:30px !important;
   }
+  .embed-responsive {
+    margin-top:20px !important;
+  }
   .ondernemers-section{
     padding: 10px 0px !important;
   }
   .h1-hero{
-    font-size:35px;
-    line-height:40px;
+    font-size:20px;
+    line-height:30px;
     margin: 20px 0px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    padding:0px;
   }
   h2.wordfan, .ondernemers-section h2{
     font-size:22px;
@@ -122,6 +130,9 @@ and (max-device-width : 568px) { /* iphone 5,5s */
     padding-bottom:5px;
     border-bottom:1px dotted #ccc;
   }
+  .overflow{
+    display:none;
+  }
 }
 
 @media only screen
@@ -130,6 +141,9 @@ and (max-device-width : 667px)
 and (orientation : portrait) { /* iphone 6,7,8, portrait */
   .intro-section {
     padding-bottom:30px !important;
+  }
+  .embed-responsive {
+    margin-top:20px !important;
   }
   .ondernemers-section{
     padding: 10px 0px !important;
@@ -179,6 +193,9 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
     padding-top:5px;
     padding-bottom:5px;
     border-bottom:1px dotted #ccc;
+  }
+  .overflow{
+    display:none;
   }
 }
 
@@ -666,13 +683,14 @@ blockquote span{
 
 }
 
-/** Facebook **/
+/** social icons **/
 
+/*facebook*/
 .facebook {
   width: 50px;
   height: 50px;
+  margin-right:10px;
 }
-.facebook a{float:left;}
 
 .facebook .border {
   background: transparent;
@@ -697,6 +715,40 @@ blockquote span{
 .fa.fa-facebook {
   font-size: 22px;
   color:#ffffff;
+  line-height:33px;
+}
+/*instagram*/
+
+.instagram {
+  width: 50px;
+  height: 50px;
 }
 
-/*facebook*/
+.instagram .border {
+  background: transparent;
+  outline: none;
+  color:rgba(255,255,255, 0.3);
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 1);
+  transition: all .2s ease-in-out;
+}
+
+.instagram .border:hover {
+  background: #bc2a8d;
+  border-color: #bc2a8d;
+  color: rgba(255,255,255, 0.9);
+  transform: scale(1.2);
+}
+
+.fa.fa-instagram {
+  font-size: 22px;
+  color:#ffffff;
+  line-height:33px;
+}
+
+
+/*social icons*/
