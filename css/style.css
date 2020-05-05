@@ -280,16 +280,17 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
   border-color: #f5bd00 !important;
 }
 .img-alert-holder{
-  position:absolute;
-  top:-90px;
+  top:0px;
   left:20px;
   bottom:0;
+  clear:both;
+  display:block;
 }
 .img-alert{
   width:180px;
   height:180px;
-  display:block;
-  clear:both;
+margin-top:-100px;
+margin-bottom:10px;
 }
 .alert-success p{
   color:#333333;
