@@ -65,8 +65,8 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
       img: './assets/ondernemers/ptfood.jpeg',
       headerText: 'PTFood',
       blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit unde!',
-      linkUrl: 'https://www.nu.nl',
-      linkLocation: ''
+      linkUrl: '#',
+      linkLocation: '#'
     },
     {
       img: './assets/ondernemers/sindjaja.jpg',
