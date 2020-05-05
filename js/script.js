@@ -58,7 +58,7 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
       img: './assets/ondernemers/konditorei-noor.jpg',
       headerText: 'Konditorei Noor',
       blurbText: 'Konditorie Noor is een gezellige nieuwe eetgelegenheid, een tafel vol heerlijke zoete en hartige hapjes',
-      linkUrl: 'https://www.konditoreinoor.nl/',
+      linkUrl: 'https://www.facebook.com/KonditoreiNoor/',
       linkLocation: 'https://www.google.com/maps/place/Konditorei+Noor/@52.5071383,5.4749333,17.92z/data=!4m5!3m4!1s0x47c62755b19c5cd1:0x74c66122b6594c4d!8m2!3d52.5072476!4d5.4756373'
     },
     {
