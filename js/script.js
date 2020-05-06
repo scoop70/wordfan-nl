@@ -60,7 +60,7 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
       img: './assets/ondernemers/thereadshop.jpg',
       headerText: 'The Readshop',
       blurbText: 'Boekhandel met een ruim assortiment.',
-      blurbFans: '6',
+      blurbFans: '5',
       blurbEmo: '📚',
       blurbHashTags: '#tijdschriften #kantoorartikelen #boeken',
       linkUrl: 'https://www.readshop.nl/Winkel/1F-16-A0-70-4F-2A-7D-3B/The-Read-Shop-Lelystad-Kroonpassage',
