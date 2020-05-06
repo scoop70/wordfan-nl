@@ -16,14 +16,14 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
       linkLocation: 'https://www.google.com/maps/place/Toko+Sindjaja/@52.5112565,5.4726759,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6268ceb4e88dd:0x29f9755c2c807892!8m2!3d52.5112565!4d5.4748646'
     },
     {
-      img: './assets/ondernemers/lelyfoto.jpg',
-      headerText: 'LelyFoto',
-      blurbText: 'Voor slechts €12,50 komt Lelyfoto langs!',
-      blurbFans: '6',
-      blurbEmo: '📸',
-      blurbHashTags: '#fotografie #portret #groepen',
-      linkUrl: 'https://www.lelyfoto.nl/',
-      linkLocation: 'https://www.google.com/maps/place/Lelyfoto/@52.5031725,5.4446368,17z/data=!3m1!4b1!4m5!3m4!1s0x47c626bb36732557:0x36d38fd6deefcb3e!8m2!3d52.5031725!4d5.4468255'
+      img: './assets/ondernemers/ptfood.jpeg',
+      headerText: 'PTFood',
+      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit unde!',
+      blurbFans: '4',
+      blurbEmo: '🍲',
+      blurbHashTags: '#bestellen #gerechten #FoodForLove',
+      linkUrl: '#',
+      linkLocation: '#'
     },
     {
       img: './assets/ondernemers/konditorei-noor.jpg',
@@ -45,15 +45,16 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
       linkUrl: 'https://www.scubanova.nl/',
       linkLocation: 'https://www.google.com/maps/place/Scuba+Nova/@52.4853678,5.4865149,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6263ede3c1621:0xbf2c83c6996fa998!8m2!3d52.4853678!4d5.4887036'
     },
+
     {
-      img: './assets/ondernemers/ptfood.jpeg',
-      headerText: 'PTFood',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit unde!',
-      blurbFans: '4',
-      blurbEmo: '🍲',
-      blurbHashTags: '#bestellen #gerechten #FoodForLove',
-      linkUrl: '#',
-      linkLocation: '#'
+      img: './assets/ondernemers/lelyfoto.jpg',
+      headerText: 'LelyFoto',
+      blurbText: 'Voor slechts €12,50 komt Lelyfoto langs!',
+      blurbFans: '6',
+      blurbEmo: '📸',
+      blurbHashTags: '#fotografie #portret #groepen',
+      linkUrl: 'https://www.lelyfoto.nl/',
+      linkLocation: 'https://www.google.com/maps/place/Lelyfoto/@52.5031725,5.4446368,17z/data=!3m1!4b1!4m5!3m4!1s0x47c626bb36732557:0x36d38fd6deefcb3e!8m2!3d52.5031725!4d5.4468255'
     },
     {
       img: './assets/ondernemers/thereadshop.jpg',
