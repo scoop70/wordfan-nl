@@ -76,7 +76,6 @@ h1.teaser{
   text-align:left;
   margin:30px 0;
   border:2.5px solid #fff;
-  opacity:0.4;
 }
 
 @media only screen
@@ -152,8 +151,8 @@ and (max-device-width : 568px) { /* iphone 5,5s */
     width:100%;
     text-align:center;
     margin:30px 0;
-    border:2.5px solid #fff;
-    opacity:0.4;
+    border:1.5px solid #fff;
+
   }
 }
 
@@ -228,7 +227,7 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
     width:100%;
     text-align:center;
     margin:30px 0;
-    border:2.5px solid #fff;
+    border:1.5px solid #fff;
   }
 }
 
@@ -242,9 +241,9 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
 .intro-section {
   background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../assets/wordfan-header.jpeg");
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center;
   background-size: cover;
-  padding-bottom:100px;
+  padding-bottom:150px;
 }
 .contact-section {
   padding-top: 100px;
@@ -436,6 +435,36 @@ img.download{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.content-box-emo {
+  float:left;
+  margin-left:5px;
+  margin-right:10px;
+}
+.content-box-hash {
+  font-size: 12px;
+  line-height:18px !important;
+  background: #eff3f6;
+  background: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    color: #333;
+    padding: 0px;
+    margin: 0 0 5px;
+}
+.yellow {
+    background-color: #ffffff;
+}
+p.labelbox {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    font-size: 12px !important;
+    color: #333;
+    padding: 0px 15px 0px 10px;
+    line-height:30px;
+  }
 
 .readmore-link {
   font-size:14px;
@@ -819,6 +848,5 @@ blockquote span{
   color:#ffffff;
   line-height:33px;
 }
-
 
 /*social icons*/

@@ -67,7 +67,7 @@
      <div class="col-lg-8 extraspace">
        <h1 class="h1-hero teaser">Wil jij geen enkele lokale aanbieding missen en sparen voor koopjes bij jou om de hoek?</h1>
        <hr class="divider" />
-       <h1 class="h1-hero">WORD FAN van lokale ondernemers!</h1>
+       <h1 class="h1-hero">WORD FAN van 'kleinere' lokale ondernemers!</h1>
      </div>
      <div class="row">
         <div class="col-lg-4">
@@ -137,22 +137,22 @@
             <i class="fa fa-quote-left"></i> <i class="fa fa-quote-right"></i>
               <div class="active item">
               <blockquote>
-                <p>Het geeft mij een goed gevoel om lokale ondernemers te steunen.</i><br/> <span>- Bob de Groot, Almere -</span></p>
+                <p>Het geeft mij een goed gevoel om lokale ondernemers te steunen. 😇</i><br/> <span>- Bob de Groot, Almere -</span></p>
               </blockquote>
             </div>
               <div class="item">
               <blockquote>
-                <p>Je bent altijd op de hoogte van de laatste promoties.<br/> <span>- Suzanne Haven, Urk -</span></p>
+                <p>Je bent altijd op de hoogte van de laatste promoties. 🎁 <br/> <span>- Suzanne Haven, Urk -</span></p>
               </blockquote>
             </div>
               <div class="item">
               <blockquote>
-                <p>Ik bespaar zo heel makkelijk geld.<br/><span>- Petra Klaver, Lelystad -</span></p>
+                <p>Ik bespaar zo heel makkelijk geld. 😄<br/><span>- Petra Klaver, Lelystad -</span></p>
               </blockquote>
             </div>
               <div class="item">
               <blockquote>
-                <p>Alle lokale winkels zo makkelijk te vinden.<br/><span>- Kees Roman, Dronten -</span></p>
+                <p>Alle lokale winkels zo makkelijk te vinden. 😍<br/><span>- Kees Roman, Dronten -</span></p>
               </blockquote>
             </div>
 
@@ -174,12 +174,14 @@
     <div class="container dynamic-grid">
       <article class="grid-item content-box" ng-repeat="(gridKey, gridItem) in gridItems | filter:filterBySearch">
         <div class="inner">
+          <p class="labelbox yellow">❤️ {{ gridItem.blurbFans }} Fans erbij</p>
         <img class="content-box-thumb" src="{{ gridItem.img }}" alt="plaatje ondernemer" />
         <div class="innerpadding">
           <h1 class="content-box-header">{{ gridItem.headerText }}</h1>
           <!--<p class="content-box-blurb">{{ gridItem.blurbText }}</p>-->
           <a class="readmore-link" href="{{ gridItem.linkUrl }}" ng-click="toggleBlurb($event)" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a>
           <a class="readmore-link" href="{{ gridItem.linkLocation }}" ng-click="toggleBlurb($event)" target="_blank"><i class="fa fa-map-marker"></i></a>
+          <br/><p class="content-box-hash">{{ gridItem.blurbEmo }} {{ gridItem.blurbHashTags }}</p>
           <!--<a class="readmore-link" href="{{ gridItem.linkdelivery }}" ng-click="toggleBlurb($event)"><i class="fa fa-truck"></i></a>-->
         </div>
         </div>
@@ -287,7 +289,7 @@
          <h3>Ben jij zelf een ondernemer?</h3>
          <p>
            Maak jouw onderneming gratis vindbaar binnen de Locanza app en start met promoten.
-           Begin gemakkelijk met <a class="qslink" href="https://www.locanza.com/index.html#qs-ondernemer" >Quick start voor ondernemers!</a>
+           Meld je simpel aan, volg de <a class="qslink" href="https://www.locanza.com/index.html#qs-ondernemer" >Quick start.</a>
          </p>
          <hr>
        </div>
@@ -328,7 +330,7 @@
          <h3>Contact</h3>
          <p>Kvknummer 71726381</p>
          <p>Ravelijn 50 </p>
-         <p>8233BR Lelystad</p>
+         <p>8233 BR Lelystad</p>
        </div>
      </div>
      <hr>
@@ -337,7 +339,7 @@
    <div class="container">
      <div class="row">
        <div class="col-md-8 col-sm-6 col-xs-12">
-         <p class="copyright-text">&copy; 2020 Alle rechten voorbehouden. Word Fan is een onderdeel van Locanza.com</p>
+         <p class="copyright-text">&copy; 2020 Alle rechten voorbehouden. Word Fan is een onderdeel van Locanza.com ® ❤️ 🤙</p>
        </div>
        <div class="col-md-4 col-sm-6 col-xs-12">
          <a target="_blank" href="https://apps.apple.com/nl/app/locanza/id1466501149?mt=8">
