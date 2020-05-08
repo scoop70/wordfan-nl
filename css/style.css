@@ -152,8 +152,12 @@ and (max-device-width : 568px) { /* iphone 5,5s */
     text-align:center;
     margin:30px 0;
     border:1.5px solid #fff;
-
   }
+  .carousel-inner .fa-quote-left,
+  .carousel-inner .fa-quote-right{
+    display:none;
+  }
+
 }
 
 @media only screen
@@ -228,6 +232,10 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
     text-align:center;
     margin:30px 0;
     border:1.5px solid #fff;
+  }
+  .carousel-inner .fa-quote-left,
+  .carousel-inner .fa-quote-right{
+    display:none;
   }
 }
 
