@@ -157,7 +157,9 @@ and (max-device-width : 568px) { /* iphone 5,5s */
   .carousel-inner .fa-quote-right{
     display:none;
   }
-
+  .phone-wrapper, .phone-movie {
+    display:none;
+  }
 }
 
 @media only screen
@@ -235,6 +237,9 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
   }
   .carousel-inner .fa-quote-left,
   .carousel-inner .fa-quote-right{
+    display:none;
+  }
+  .phone-wrapper, .phone-movie {
     display:none;
   }
 }
@@ -858,3 +863,18 @@ blockquote span{
 }
 
 /*social icons*/
+
+.phone {
+}
+.phone-wrapper {
+  background: url('../assets/iphone-x-transparent.svg') no-repeat;
+  background-size: cover;
+  z-index: 10000;
+  width: 240px;
+  height: 480px;
+  position:absolute;
+}
+.phone-movie {
+  transform: translate(12px,0px);
+  z-index: 0;
+}
