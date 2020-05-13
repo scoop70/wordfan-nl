@@ -92,17 +92,18 @@ h1.teaser{
   margin-top:4px;
 }
 .instaimg {
-  width: 92px;
+  /*width: 92px;
   margin-right:10px;
   border-radius:50%;
-  border:3px solid #fff;
+  border:3px solid #fff;*/
+  width:100%;
 }
 .instatag{
-    color:#f5bd00;
-    font-size:25px !important;
-    font-weight:600;
-    padding-top:5px;
+    color:#333 !important;
     padding-bottom:20px;
+    border:1px solid #ffffff;
+    padding:8px;
+    border-radius:10px;
 }
 @media only screen
 and (min-device-width : 320px)
@@ -312,7 +313,7 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
   transition: background 800ms ease-in;
 }
 .alert-success{
-  margin-top:50px;
+  margin-top:0px;
   border-radius:10px;
   background-color:#f5bd00;
   border-color: #f5bd00 !important;
