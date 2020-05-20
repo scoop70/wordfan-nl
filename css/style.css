@@ -285,6 +285,7 @@ and (orientation : portrait) { /* iphone 6,7,8, portrait */
   background-position: center;
   background-size: cover;
   padding-bottom:150px;
+  
 }
 .contact-section {
   padding-top: 100px;
