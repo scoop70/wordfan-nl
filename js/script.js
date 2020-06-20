@@ -57,6 +57,16 @@ var gridCtrl = contentBoxApp.controller('GridCtrl', function($scope) {
       linkLocation: 'https://www.google.com/maps/place/Lelyfoto/@52.5031725,5.4446368,17z/data=!3m1!4b1!4m5!3m4!1s0x47c626bb36732557:0x36d38fd6deefcb3e!8m2!3d52.5031725!4d5.4468255'
     },
     {
+      img: './assets/ondernemers/kip2day.jpg',
+      headerText: 'Kip2Day - Zwolle',
+      blurbText: '',
+      blurbFans: '5',
+      blurbEmo: '🐔',
+      blurbHashTags: '#bestellen #gerechten #Kip2day',
+      linkUrl: 'https://www.kip2day.nl/',
+      linkLocation: 'https://www.google.com/search?q=kip2day&oq=kip2day&aqs=chrome..69i57j35i39j0l4j69i61l2.2417j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk01vCr_5qtI0GeMKL7hjD3sbw_GFhw:1592647338172&npsic=0&rflfq=1&rlha=0&rllag=52320909,5847265,26798&tbm=lcl&rldimm=14538317807792250565&lqi=CgdraXAyZGF5WhIKB2tpcDJkYXkiB2tpcDJkYXk&ved=2ahUKEwjliODWkZDqAhURsKQKHRhHDbYQvS4wAXoECAwQHw&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:3&rlst=f#rlfi=hd:;si:14538317807792250565,l,CgdraXAyZGF5WhIKB2tpcDJkYXkiB2tpcDJkYXk;mv:[[52.71571331846482,6.485598366381242],[52.2208713737642,5.476920809270456],null,[52.46898776929052,5.981259587825849],11]'
+    },
+    {
       img: './assets/ondernemers/thereadshop.jpg',
       headerText: 'The Readshop',
       blurbText: 'Boekhandel met een ruim assortiment.',
