@@ -126,6 +126,37 @@
     </section>
 <!-- start -->
 
+
+<!-- /#contentBoxApp -->
+<section id="ondernemers" class="ondernemers-section">
+<div id="contentBoxApp" ng-app="contentBoxApp">
+  <div class="col-md-12 text-center">
+    <h2>Ook deze lokale ondernemers gebruiken de Locanza app</h2>
+    <h5>❤️ <span id="aantalFans">51</span> bezoekers van deze site zijn vandaag Fan geworden</h5>
+  </div>
+  <div id="GridCtrl" class="" ng-controller="GridCtrl">
+    <div class="container dynamic-grid">
+      <article class="grid-item content-box" ng-repeat="(gridKey, gridItem) in gridItems | filter:filterBySearch">
+        <div class="inner">
+          <p class="labelbox yellow">❤️ {{ gridItem.blurbFans }} Fans erbij</p>
+        <img class="content-box-thumb" src="{{ gridItem.img }}" alt="plaatje ondernemer" />
+        <div class="innerpadding">
+          <h1 class="content-box-header">{{ gridItem.headerText }}</h1>
+          <!--<p class="content-box-blurb">{{ gridItem.blurbText }}</p>-->
+          <a class="readmore-link" href="{{ gridItem.linkUrl }}" ng-click="toggleBlurb($event)" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a>
+          <a class="readmore-link" href="{{ gridItem.linkLocation }}" ng-click="toggleBlurb($event)" target="_blank"><i class="fa fa-map-marker"></i></a>
+          <br/><p class="content-box-hash">{{ gridItem.blurbEmo }} {{ gridItem.blurbHashTags }}</p>
+          <!--<a class="readmore-link" href="{{ gridItem.linkdelivery }}" ng-click="toggleBlurb($event)"><i class="fa fa-truck"></i></a>-->
+        </div>
+        </div>
+      </article><!-- /.content-box -->
+    </div><!-- /.dynamic-grid -->
+  </div><!-- /#GridCtrl -->
+
+</div>
+</section>
+<!-- /#contentBoxApp -->
+
 <section id="carousel">
   <div class="container">
     <div class="row">
@@ -165,7 +196,6 @@
 
           </div>
 
-
         </div>
       </div>
     </div>
@@ -173,35 +203,6 @@
 </section>
 
 
-<!-- /#contentBoxApp -->
-<section id="ondernemers" class="ondernemers-section">
-<div id="contentBoxApp" ng-app="contentBoxApp">
-  <div class="col-md-12 text-center">
-    <h2>Ook deze lokale ondernemers gebruiken de Locanza app</h2>
-    <h5>❤️ <span id="aantalFans">51</span> bezoekers van deze site zijn vandaag Fan geworden</h5>
-  </div>
-  <div id="GridCtrl" class="" ng-controller="GridCtrl">
-    <div class="container dynamic-grid">
-      <article class="grid-item content-box" ng-repeat="(gridKey, gridItem) in gridItems | filter:filterBySearch">
-        <div class="inner">
-          <p class="labelbox yellow">❤️ {{ gridItem.blurbFans }} Fans erbij</p>
-        <img class="content-box-thumb" src="{{ gridItem.img }}" alt="plaatje ondernemer" />
-        <div class="innerpadding">
-          <h1 class="content-box-header">{{ gridItem.headerText }}</h1>
-          <!--<p class="content-box-blurb">{{ gridItem.blurbText }}</p>-->
-          <a class="readmore-link" href="{{ gridItem.linkUrl }}" ng-click="toggleBlurb($event)" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a>
-          <a class="readmore-link" href="{{ gridItem.linkLocation }}" ng-click="toggleBlurb($event)" target="_blank"><i class="fa fa-map-marker"></i></a>
-          <br/><p class="content-box-hash">{{ gridItem.blurbEmo }} {{ gridItem.blurbHashTags }}</p>
-          <!--<a class="readmore-link" href="{{ gridItem.linkdelivery }}" ng-click="toggleBlurb($event)"><i class="fa fa-truck"></i></a>-->
-        </div>
-        </div>
-      </article><!-- /.content-box -->
-    </div><!-- /.dynamic-grid -->
-  </div><!-- /#GridCtrl -->
-
-</div>
-</section>
-<!-- /#contentBoxApp -->
 
 <!-- faq -->
 <section id="faq" class="faq-section">
